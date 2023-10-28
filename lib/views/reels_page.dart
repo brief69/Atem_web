@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:atem/viewmodels/auth_view_model.dart';
+import 'package:atem/views/registration_page.dart';
 
 class ReelsPage extends ConsumerWidget {
   const ReelsPage({Key? key}) : super(key: key);
@@ -36,10 +37,9 @@ class LimitedVideoView extends StatelessWidget {
             // 他の機能にアクセスしようとするとモーダルで登録ページを表示
             showModalBottomSheet(
               context: context,
-              builder: (context) => const RegisterPage(),
+              builder: (context) => const PasskeyRegistrationPage(),
             );
-          },
-          child: const Text("他の機能を使用する"),
+          }, child: null,
         )
       ],
     );
