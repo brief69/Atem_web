@@ -1,5 +1,8 @@
-// ignore_for_file: unnecessary_null_comparison
 
+
+// main.dart
+import 'package:atem/views/home_page.dart';
+import 'package:atem/views/reels_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -26,7 +29,7 @@ class MyApp extends ConsumerWidget {
       ),
       home: user != null && user.isAnonymous 
         ? const LimitedVideoView() 
-        : const MyHomePage(title: 'Flutter Demo Home Page'),
+        : const HomePage(title: null,),
     );
   }
 }
