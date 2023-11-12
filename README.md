@@ -2,11 +2,14 @@
 
 ## Overview
 
-DMS is an experimental application proposing a new kind of market, the Distributed Market Share. Through the Bennu application, it offers a fully democratic marketplace.
+dtm is the first paid video platform to adopt ups.
+Users can post and view videos democratically.
+
+Atem web site
 
 ## Features
 
-- Proposing the idea of Distributed Market Share
+- Proposing the idea of Distributed "Atem"
 - Adopting the UPS revenue model proposed by @brief69
 - Integrating the transparency of social networks with a voting system
 - Bennu: Democratically realizing the entire process from production to second-hand distribution
